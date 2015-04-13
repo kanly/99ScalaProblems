@@ -4,7 +4,7 @@ import problems.Problems
 
 object Functional extends Problems {
   //01 Find the last element of a list
-  override def last[A](list: List[A]): A = ???
+  override def last[A](list: List[A]): Option[A] = ???
 
   //02 Find the last but one element of a list
   override def penultimate[A](list: List[A]): A = ???

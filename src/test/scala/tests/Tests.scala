@@ -7,7 +7,7 @@ trait Tests extends FlatSpec with Matchers {
   this: Problems =>
 
   "(01) last" should "find last element of a list" in {
-    last(List(1, 1, 2, 3, 5, 8)) shouldBe 8
+    last(List(1, 1, 2, 3, 5, 8)) shouldBe Some(8)
   }
 
   "(02) penultimate" should "find the last but one element of a list" in {

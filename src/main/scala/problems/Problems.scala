@@ -3,7 +3,7 @@ package problems
 
 trait Problems {
   //01 Find the last element of a list
-  def last[A](list: List[A]): A
+  def last[A](list: List[A]): Option[A]
 
   //02 Find the last but one element of a list
   def penultimate[A](list: List[A]): A
