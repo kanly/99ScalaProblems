@@ -6,10 +6,10 @@ trait Problems {
   def last[A](list: List[A]): Option[A]
 
   //02 Find the last but one element of a list
-  def penultimate[A](list: List[A]): A
+  def penultimate[A](list: List[A]): Option[A]
 
   //03 Find the Kth element of a list. (0 based)
-  def nth[A](k: Int, list: List[Any]): Any
+  def nth[A](k: Int, list: List[A]): Option[A]
 
   //04 Find the number of elements of a list
   def length(list: List[_]): Int
