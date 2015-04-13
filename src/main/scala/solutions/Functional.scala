@@ -22,7 +22,7 @@ object Functional extends Problems {
   override def isPalindrome(list: List[_]): Boolean = ???
 
   //07 Flatten a nested list structure.
-  override def flatten[A](listOfLists: List[List[A]]): List[A] = ???
+  override def flatten(listOfLists: List[Any]): List[Any] = ???
 
   //08 Eliminate consecutive duplicates of list elements
   override def compress[A](list: List[A]): List[A] = ???
