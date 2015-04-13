@@ -1,0 +1,24 @@
+.*
+!.gitignore
+
+# IntelliJ
+*.iml
+*.ipr
+*.iws
+*.sc
+*.idea*
+
+# Sbt
+project/project
+project/target
+target/
+
+#Vaadin widgetsets
+webApp/src/main/webapp/VAADIN/widgetsets
+webApp/src/main/webapp/VAADIN/gwt-unitCache
+
+#compiled css
+webApp/src/main/webapp/VAADIN/themes/*/*.css
+
+#dolphin
+.directory
